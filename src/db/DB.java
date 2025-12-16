@@ -45,10 +45,4 @@ public class DB {
             }
         }
     }
-
-    public static void closeConnection(Connection conn, Statement st, ResultSet rs) {
-        closeStatement(st);
-        closeResultSet(rs);
-        closeConnection(conn);
-    }
 }
