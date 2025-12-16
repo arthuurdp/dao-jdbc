@@ -3,6 +3,7 @@ package application;
 import dao.DaoFactory;
 import dao.DepartmentDao;
 import dao.SellerDao;
+import entities.Department;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -14,8 +15,6 @@ public class Main {
 
         SellerDao sellerDao = DaoFactory.createSellerDao();
         DepartmentDao departmentDao = DaoFactory.createDepartmentDao();
-
-        System.out.println(sellerDao.findAll());
 
     }
 }
