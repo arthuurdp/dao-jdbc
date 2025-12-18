@@ -1,0 +1,59 @@
+####################################
+# Java
+####################################
+
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+*.nar
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
+
+####################################
+# Logs
+####################################
+
+*.log
+
+####################################
+# IntelliJ IDEA
+####################################
+
+# IntelliJ project files
+.idea/
+*.iml
+
+# IntelliJ build output
+/out/
+
+####################################
+# OS files
+####################################
+
+# Database properties (sensitive data)
+db.properties
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+####################################
+# Temporary files
+####################################
+
+*.tmp
+*.bak
+*.swp
+*.old
