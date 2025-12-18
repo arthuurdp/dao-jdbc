@@ -22,7 +22,7 @@ public class DepartmentDaoJDBC implements DepartmentDao {
 
         try {
             st = conn.prepareStatement("INSERT INTO department (Name) VALUES (?)",
-                                        st.RETURN_GENERATED_KEYS);
+                                        Statement.RETURN_GENERATED_KEYS);
 
             st.setString(1, p.getName());
 

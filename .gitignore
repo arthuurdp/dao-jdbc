@@ -6,7 +6,7 @@
 out/
 
 # Database properties (sensitive data)
-# db.properties
+db.properties
 
 # Compiled class files
 *.class
