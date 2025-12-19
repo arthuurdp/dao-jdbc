@@ -84,4 +84,6 @@ This facilitates maintenance and allows for changing the persistence technology 
 
 ## Author
 
-Arthur Dall Agnol Pinheiro.
+**Arthur Dall Agnol Pinheiro**
+* Estudante de Análise e Desenvolvimento de Sistemas,  UPF - Passo Fundo.
+* [LinkedIn](https://www.linkedin.com/in/arthur-dall-agnol-pinheiro-b04285357/)
