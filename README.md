@@ -41,13 +41,6 @@ dburl=jdbc:mysql://localhost:3306/daojdbc
 useSSL=false
 ```
 
-## How to Run
-
-You can run the test classes located in the `src/application` package:
-
-1. **SellerTest.java**: Runs CRUD operations for the `Seller` entity.
-2. **DepartmentTest.java**: Runs CRUD operations for the `Department` entity.
-
 ### Example Operations
 
 - **findById()**: Retrieves an entity based on its primary key.
