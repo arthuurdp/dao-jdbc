@@ -11,36 +11,6 @@ The project is organized into several packages:
 - `db`: Database connection management and exception handling.
 - `entities`: Domain model classes (`Department` and `Seller`).
 
-## Technologies Used
-
-- **Java**: Core language.
-- **JDBC (Java Database Connectivity)**: For database interaction.
-- **MySQL**: Relational database.
-
-## Getting Started
-
-### Prerequisites
-
-- JDK 11 or higher.
-- MySQL Server.
-- A MySQL connector driver (JAR) added to the project's classpath.
-
-### Database Setup
-
-1. Create a database named `daojdbc`.
-2. Run the `script.sql` file located in the project root to create the `department` and `seller` tables and populate them with initial data.
-
-### Configuration
-
-Update the `db.properties` file in the project root with your database credentials:
-
-```properties
-user=your_username
-password=your_password
-dburl=jdbc:mysql://localhost:3306/daojdbc
-useSSL=false
-```
-
 ### Example Operations
 
 - **findById()**: Retrieves an entity based on its primary key.
@@ -59,21 +29,7 @@ The project uses the **Factory** pattern through the `DaoFactory` class to manag
 2.  **Implementations**: Classes that perform actual data access (`SellerDaoJDBC`, `DepartmentDaoJDBC`).
 3.  **DaoFactory**: Class responsible for instantiating implementations and injecting the database connection.
 
-**Usage example:**
-
-```java
-// The application knows only the interface, not the implementation
-SellerDao sellerDao = DaoFactory.createSellerDao();
-```
-
 This facilitates maintenance and allows for changing the persistence technology (e.g., switching from JDBC to JPA) with minimal impact on the application code.
-
-## Features
-
-- **DAO Pattern**: Decouples business logic from data access logic.
-- **Factory Pattern**: Uses `DaoFactory` to instantiate DAOs, hiding implementation details.
-- **Exception Handling**: Custom `DBException` for database-related errors.
-- **Connection Management**: Centralized `DB` class to open and close connections safely.
 
 ## Author
 
