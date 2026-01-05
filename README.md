@@ -30,9 +30,3 @@ The project uses the **Factory** pattern through the `DaoFactory` class to manag
 3.  **DaoFactory**: Class responsible for instantiating implementations and injecting the database connection.
 
 This facilitates maintenance and allows for changing the persistence technology (e.g., switching from JDBC to JPA) with minimal impact on the application code.
-
-## Author
-
-**Arthur Dall Agnol Pinheiro**
-* Estudante de Análise e Desenvolvimento de Sistemas,  UPF - Passo Fundo.
-* [LinkedIn](https://www.linkedin.com/in/arthur-dall-agnol-pinheiro-b04285357/)
