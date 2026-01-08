@@ -30,3 +30,11 @@ The project uses the **Factory** pattern through the `DaoFactory` class to manag
 3.  **DaoFactory**: Class responsible for instantiating implementations and injecting the database connection.
 
 This facilitates maintenance and allows for changing the persistence technology (e.g., switching from JDBC to JPA) with minimal impact on the application code.
+
+### Domain Model:
+<img width="1123" height="554" alt="image" src="https://github.com/user-attachments/assets/542b9108-dad8-4714-a855-2d72ab348d7c" />
+
+### Domain Instance:
+<img width="1119" height="666" alt="image" src="https://github.com/user-attachments/assets/ff130023-5242-475b-9cb4-3803d14b900a" />
+
+
